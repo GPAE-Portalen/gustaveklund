@@ -1,6 +1,6 @@
 ﻿[build]
-  command = "hugo"
   publish = "../wwwroot"
+  command = "hugo"
 
-[build.environment]
-  HUGO_VERSION = "0.118.2"
+  [build.environment]
+    HUGO_VERSION = "0.118.2"
