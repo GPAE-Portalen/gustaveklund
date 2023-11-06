@@ -1,0 +1,7 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Gustav Eklund'
+description = "Gustav Eklunds portfolio"
+publishDir = "../wwwroot"
+enableRobotsTXT = true
+theme = "minimal"
