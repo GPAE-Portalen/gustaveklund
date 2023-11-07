@@ -5,3 +5,6 @@ description = "Gustav Eklunds portfolio"
 publishDir = "../wwwroot"
 enableRobotsTXT = true
 theme = "minimal"
+
+[params]
+googleSiteVerificationId = 'SJ6GRioeUxYuJMmWaLUcmLrv_UHhCdpIfnLd6EsO13Y'

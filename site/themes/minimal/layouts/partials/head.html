@@ -3,3 +3,9 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+
+{{ if .Page.IsHome }}
+{{ with .Site.Params.googleSiteVerificationId }}
+<meta name="google-site-verification" content="{{ . }}" />
+{{ end }}
+{{ end }}
